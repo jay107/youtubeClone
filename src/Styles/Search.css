@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    overflow: hidden;
+    z-index: 2;
+    background: white;
+}
+
+.main .bar-div{
+    display: flex;
+    line-height: 40px;
+    width: 20%;
+}
+
+.bar-div i{
+    margin: auto 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.bar-div .icon-div{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.bar-div .icon-div i{
+    color: red;
+    font-size: 30px;
+    line-height: 40px;
+    margin: auto 10px;
+}
+
+.icons-div a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon-div span{
+    /* line-height: 40px; */
+    margin: 5px 0px 10px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.search-div{
+    width: 50%;
+    align-items: center;
+}
+
+.search-div input{
+    width: 92%;
+    height: 30px;
+    align-items: center;
+    margin: 5px 0px;
+    background-color: rgb(204, 200, 200);
+    border: none;
+    color: black;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s ease;
+    padding-left: 10px;
+}
+
+.search-div input:hover{
+    background-color: rgb(184, 183, 181);
+}
+
+.search-div i{
+    margin-top: 6px;
+    margin-left: 0;
+    font-size: 20px;
+    background-color: rgb(165, 163, 163);
+    padding: 4.5px 12px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.search-div i:hover{
+    background-color: rgb(151, 148, 148);
+}
+
+.icons-div{
+    width: 20%;   
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-div i{
+    margin-left: 20px;
+    font-size: 20px;
+}

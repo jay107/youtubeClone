@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.sidebar-main{
+    position: fixed;
+    width: 17%;
+    background-color: rgb(221, 221, 219);
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    bottom: 0;
+    font-family: 'Noto Serif', serif;
+    color: black;
+    z-index: 2;
+}
+
+.sidebar-main::-webkit-scrollbar{
+    width: 12px;
+}
+
+.sidebar-main::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(138, 137, 137, 0.3);  */
+    background-color: transparent;
+}
+
+.sidebar-main::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+.sidebar-main::-webkit-scrollbar-thumb:hover{
+    color: rgb(20, 20, 20);
+}
+
+.sidebar-main ul{
+    list-style: none;
+    margin: 20px auto;   
+}
+
+.sidebar-main ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-main li{
+    margin-top: 15px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    padding: 10px;
+    margin-left: 20px;
+    /*width: 100%;
+     */
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.sidebar-main li:hover{
+    background-color: rgb(114, 116, 114);
+}
+
+.sidebar-main li i{
+    margin-right: 15px;
+    color: rgb(68, 68, 68);
+}
+
+.sidebar-main hr{
+    height: 3px;
+    background-color: white;
+}
+ 
+.sidebar-main .footer-section p{
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+    letter-spacing: 1.5px;
+    margin-top: 4px;
+} 
